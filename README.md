@@ -10,8 +10,8 @@ To deploy all the infrastructure stacks:
 
 To deploy individual stacks:
 
-    terraspace up demo # where demo is app/stacks/demo
-
+    terraspace up web 
+    
 ## Terrafile
 
 To use more modules, add them to the [Terrafile](https://terraspace.cloud/docs/terrafile/).
