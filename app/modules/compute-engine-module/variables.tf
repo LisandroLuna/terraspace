@@ -6,6 +6,10 @@ variable "vm_type" {
   description = "vm type (required)"
   type        = string
 }
+variable "vm_tags" {
+  type        = list
+  default     = []
+}
 variable "vm_zone" {
   description = "vm zone (required)"
   type        = string

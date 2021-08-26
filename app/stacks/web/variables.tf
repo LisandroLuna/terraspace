@@ -2,6 +2,9 @@ variable "network_1" {
   description = "network name (required)"
   type        = string
 }
+variable "region_1" {
+  type        = string
+}
 variable "sn_name_1" {
   description = "(required)"
   type        = string
@@ -10,7 +13,11 @@ variable "sn_cidr_1" {
   description = "(required)"
   type        = string
 }
-variable "sn_region_1" {
+variable "sn_purpose_1" {
+  description = "(required)"
+  type        = string
+}
+variable "sn_role_1" {
   description = "(required)"
   type        = string
 }
@@ -22,47 +29,26 @@ variable "sn_cidr_2" {
   description = "(required)"
   type        = string
 }
-variable "sn_region_2" {
+variable "ti_name_1" {
   description = "(required)"
   type        = string
 }
-variable "vm_name_1" {
+variable "ti_type_1" {
   description = "(required)"
   type        = string
 }
-variable "vm_type_1" {
+variable "ti_tags_1" {
+  type        = list
+}
+variable "ti_zone_1" {
   description = "(required)"
   type        = string
 }
-variable "vm_zone_1" {
+variable "ti_image_1" {
   description = "(required)"
   type        = string
 }
-variable "vm_image_1" {
-  description = "(required)"
-  type        = string
-}
-variable "vm_script_1" {
-  description = "(required)"
-  type        = string
-}
-variable "vm_name_2" {
-  description = "(required)"
-  type        = string
-}
-variable "vm_type_2" {
-  description = "(required)"
-  type        = string
-}
-variable "vm_zone_2" {
-  description = "(required)"
-  type        = string
-}
-variable "vm_image_2" {
-  description = "(required)"
-  type        = string
-}
-variable "vm_script_2" {
+variable "ti_script_1" {
   description = "(required)"
   type        = string
 }

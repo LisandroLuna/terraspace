@@ -14,3 +14,11 @@ variable "sn_network" {
   description = "subnetwork network (required)"
   type        = string
 }
+variable "sn_purpose" {
+  description = "subnetwork network (required)"
+  type        = string
+}
+variable "sn_role" {
+  description = "subnetwork network (required)"
+  type        = string
+}

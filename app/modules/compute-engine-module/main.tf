@@ -1,6 +1,7 @@
 resource "google_compute_instance" "vitual_machine" {
   name         = var.vm_name
   machine_type = var.vm_type 
+  tags         = var.vm_tags
   zone         = var.vm_zone 
 
   boot_disk {
